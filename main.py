@@ -61,7 +61,7 @@ if __name__ == '__main__':
         path_test = PATH+"narm_diginetica_test.txt"
         num_item = 43098
     elif opt.dataset == 'rsc_64' :
-        path_train = PATH+"narm_yo_64_train.txt"
+        path_train = PATH+"narm_rsc_64_train.txt"
         path_test = PATH+"narm_rsc_64_test.txt"
         num_item = 17695
     elif opt.dataset == 'rsc_4':
