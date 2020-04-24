@@ -118,7 +118,7 @@ class PACA(Model):
     def _build(self):
         self.layers.append(LookingUp())
 
-        self.layers.append(PositionAwareAttention(max_length=self.max_length,
+        self.layers.append(PositionAwareMeanAttention(max_length=self.max_length,
                                                   input_dim = self.emb_dim,
                                                   output_dim= self.emb_dim,
                                                   dropout=self.dropouts[1],
